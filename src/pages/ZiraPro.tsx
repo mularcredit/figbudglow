@@ -127,7 +127,7 @@ const ZiraPro = () => {
                 <div className="max-w-6xl mx-auto px-6 lg:px-8 relative z-10">
                     <div className="flex flex-col md:flex-row items-end justify-between mb-20 gap-8">
                         <div className="max-w-2xl">
-                            <h2 className="text-4xl font-bold text-white mb-4 tracking-tight">The Productivity Paradox</h2>
+                            <h2 className="text-4xl font-bold text-white mb-4 tracking-tight">Industry Pain points and our solutions</h2>
                             <p className="text-slate-400 text-lg font-light leading-relaxed">Addressing the gap between technological investment and organizational efficiency.</p>
                         </div>
                         <div className="hidden md:block h-px flex-1 bg-white/10 mx-12 mb-4" />

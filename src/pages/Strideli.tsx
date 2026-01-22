@@ -127,7 +127,7 @@ const Strideli = () => {
                 <div className="max-w-6xl mx-auto px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row items-end justify-between mb-20 gap-8">
                         <div className="max-w-2xl">
-                            <h2 className="text-4xl font-bold text-slate-900 mb-4 tracking-tight">Market Friction</h2>
+                            <h2 className="text-4xl font-bold text-slate-900 mb-4 tracking-tight">Industry Pain points and our solutions</h2>
                             <p className="text-slate-500 text-lg font-light leading-relaxed">Identifying and eliminating the structural bottlenecks in mobile asset management.</p>
                         </div>
                         <div className="hidden md:block h-px flex-1 bg-slate-200 mx-12 mb-4" />
