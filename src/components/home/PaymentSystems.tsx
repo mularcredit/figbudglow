@@ -19,7 +19,7 @@ const PaymentSystems = () => {
                             Jasiri <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-blue-600 italic font-light leading-normal">lending software</span>
                         </h2>
                         <p className="text-xl text-slate-500 max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
-                            Accelerate your loan book while crushing NPLs. Jasiri Lending is the rapid operating system built for microfinance and digital banks. It integrates real time AI credit scoring with seamless M-Pesa B2C disbursements.
+                            Accelerate your loan book while crushing NPLs. Jasiri Lending is the rapid operating system built for microfinance and digital banks. It integrates real time precision credit scoring with seamless M-Pesa B2C disbursements.
                         </p>
                     </div>
                     <div className="lg:w-1/2 relative group">

@@ -19,7 +19,7 @@ export const services = [
     {
         icon: CreditCard,
         title: 'Microfinance and lending infrastructure',
-        description: 'Complete Loan Origination Systems designed for the modern credit market. From onboarding compliant with KYC to credit appraisals driven by AI and M-Pesa B2C disbursements, we minimize NPLs through predictive monitoring of delinquency.',
+        description: 'Complete Loan Origination Systems designed for the modern credit market. From onboarding compliant with KYC to automated credit appraisals and M-Pesa B2C disbursements, we minimize NPLs through predictive monitoring of delinquency.',
         features: ['Automated credit scoring engines', 'M-Pesa B2C and C2B integration', 'Tiered collateral management', 'Real time delinquency tracking', 'Portfolio at Risk analytics'],
         color: 'text-green-400',
         bgColor: 'bg-green-50',
@@ -65,9 +65,9 @@ export const services = [
     },
     {
         icon: Brain,
-        title: 'AI driven business intelligence',
+        title: 'Data driven business intelligence',
         description: 'Harness the power of machine learning to predict market shifts. From predictive churn analysis to automated credit limit increases, we embed intelligence into your operational workflow for superior decision making.',
-        features: ['Predictive delinquency modeling', 'Automated document OCR', 'Fraud pattern recognition', 'Operational anomaly detection', 'AI business forecasting'],
+        features: ['Predictive delinquency modeling', 'Automated document OCR', 'Fraud pattern recognition', 'Operational anomaly detection', 'Advanced business forecasting'],
         color: 'text-purple-400',
         bgColor: 'bg-purple-50',
         variant: 'light'
@@ -138,7 +138,7 @@ export const activeOpportunities = [
     },
     {
         title: "Jasiri lending software",
-        excerpt: "The definitive full cycle lending operating system. Engineered for microfinance institutions requiring AI driven credit scoring, automated disbursements, and aggressive delinquency management.",
+        excerpt: "The definitive full cycle lending operating system. Engineered for microfinance institutions requiring automated credit scoring, disbursements, and aggressive delinquency management.",
         time: "Active",
         image: "/products/jasiri.png",
         badge: "NPL Reduction"

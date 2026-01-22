@@ -14,10 +14,10 @@ const OurProducts = () => {
         {
             name: 'Jasiri Lending',
             tagline: 'Lending Software',
-            description: 'Next-generation lending platform for microfinance and banks, featuring AI-driven credit scoring.',
+            description: 'Next-generation lending platform for microfinance and banks, featuring precision credit scoring.',
             icon: Shield,
             color: 'from-emerald-500 to-teal-600',
-            features: ['AI Credit Scoring', 'Loan Origination', 'Risk Management']
+            features: ['Automated Scoring', 'Loan Origination', 'Risk Management']
         },
         {
             name: 'Strideli',
