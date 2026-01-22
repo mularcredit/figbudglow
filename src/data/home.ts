@@ -134,21 +134,24 @@ export const activeOpportunities = [
         excerpt: "Enterprise grade Human Capital Management with deep focus on Kenyan statutory compliance. Automate payroll, eliminate ghost workers, and manage the full employee lifecycle with biometric precision.",
         time: "Active",
         image: "/products/zira.png",
-        badge: "Statutory Ready"
+        badge: "Statutory Ready",
+        link: "/products/zirapro"
     },
     {
         title: "Jasiri lending software",
         excerpt: "The definitive full cycle lending operating system. Engineered for microfinance institutions requiring automated credit scoring, disbursements, and aggressive delinquency management.",
         time: "Active",
         image: "/products/jasiri.png",
-        badge: "NPL Reduction"
+        badge: "NPL Reduction",
+        link: "/products/jasiri-lending"
     },
     {
         title: "Strideli",
         excerpt: "High fidelity asset telemetry and fleet intelligence. Prevent fuel siphoning, monitor driver behavior in real time, and protect your high value assets with remote engine immobilization.",
         time: "Active",
-        image: "/products/strideli.webp",
-        badge: "Fuel Monitoring"
+        image: "/stride.png",
+        badge: "Fuel Monitoring",
+        link: "/products/strideli"
     }
 ];
 

@@ -77,10 +77,10 @@ const ExclusiveOpportunities = () => {
                                         Limited access
                                     </div>
                                     <Link
-                                        to="/demo"
+                                        to={item.link}
                                         className="flex items-center text-xs font-bold text-blue-400 transition-all hover:text-blue-300 tracking-wide"
                                     >
-                                        Claim access <ArrowRight weight="light" className="ml-3 h-5 w-5" />
+                                        Explore <ArrowRight weight="light" className="ml-3 h-5 w-5" />
                                     </Link>
                                 </div>
                             </div>

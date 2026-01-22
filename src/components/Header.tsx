@@ -77,7 +77,7 @@ const Header = () => {
                     <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Enterprise Suite</span>
                   </div>
                   <Link
-                    to="/services#hrm"
+                    to="/products/zirapro"
                     className="flex flex-col px-4 py-3 hover:bg-white/5 transition-colors group/item"
                     onClick={handleServicesLinkClick}
                   >
@@ -85,7 +85,7 @@ const Header = () => {
                     <span className="text-[11px] text-slate-500 font-medium tracking-normal mt-0.5">HCM & Payroll Systems</span>
                   </Link>
                   <Link
-                    to="/services#lending"
+                    to="/products/jasiri-lending"
                     className="flex flex-col px-4 py-3 hover:bg-white/5 transition-colors group/item"
                     onClick={handleServicesLinkClick}
                   >
@@ -93,7 +93,7 @@ const Header = () => {
                     <span className="text-[11px] text-slate-500 font-medium tracking-normal mt-0.5">Lending Software</span>
                   </Link>
                   <Link
-                    to="/services#tracker"
+                    to="/products/strideli"
                     className="flex flex-col px-4 py-3 hover:bg-white/5 transition-colors group/item"
                     onClick={handleServicesLinkClick}
                   >

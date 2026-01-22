@@ -9,7 +9,8 @@ const OurProducts = () => {
             description: 'Comprehensive human capital management designed for modern teams, with automated payroll and compliance.',
             icon: Lightning,
             color: 'from-blue-500 to-indigo-600',
-            features: ['Automated Payroll', 'Leave Management', 'Statutory Compliance']
+            features: ['Automated Payroll', 'Leave Management', 'Statutory Compliance'],
+            link: '/products/zirapro'
         },
         {
             name: 'Jasiri Lending',
@@ -17,7 +18,8 @@ const OurProducts = () => {
             description: 'Next-generation lending platform for microfinance and banks, featuring precision credit scoring.',
             icon: Shield,
             color: 'from-emerald-500 to-teal-600',
-            features: ['Automated Scoring', 'Loan Origination', 'Risk Management']
+            features: ['Automated Scoring', 'Loan Origination', 'Risk Management'],
+            link: '/products/jasiri-lending'
         },
         {
             name: 'Strideli',
@@ -25,7 +27,8 @@ const OurProducts = () => {
             description: 'Real-time asset telemetry and intelligent monitoring for fleet management and asset security.',
             icon: DeviceMobile,
             color: 'from-blue-400 to-cyan-500',
-            features: ['Live GPS Tracking', 'Anti-theft Alerts', 'Fleet Analytics']
+            features: ['Live GPS Tracking', 'Anti-theft Alerts', 'Fleet Analytics'],
+            link: '/products/strideli'
         }
     ];
 
@@ -77,7 +80,7 @@ const OurProducts = () => {
                                     ))}
                                 </div>
 
-                                <Link to="/demo" className="inline-flex items-center group/btn text-sm font-bold text-white tracking-widest uppercase py-4 px-8 bg-white/5 border border-white/10 rounded-xl hover:bg-white hover:text-slate-950 transition-all duration-300">
+                                <Link to={product.link} className="inline-flex items-center group/btn text-sm font-bold text-white tracking-widest uppercase py-4 px-8 bg-white/5 border border-white/10 rounded-xl hover:bg-white hover:text-slate-950 transition-all duration-300">
                                     Explore {product.name.split(' ')[0]} <ArrowRight className="ml-3 h-4 w-4 transform group-hover/btn:translate-x-1 transition-transform" />
                                 </Link>
                             </div>

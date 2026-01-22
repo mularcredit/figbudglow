@@ -11,8 +11,10 @@ import Contact from './pages/Contact';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import APIDocumentation from './pages/API';
+import JasiriLending from './pages/JasiriLending';
+import ZiraPro from './pages/ZiraPro';
+import Strideli from './pages/Strideli';
 
-import GlowBackground from './components/GlowBackground';
 
 function App() {
   return (
@@ -31,6 +33,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/signin" element={<SignIn />} />
             <Route path="/signup" element={<SignUp />} />
+            <Route path="/products/jasiri-lending" element={<JasiriLending />} />
+            <Route path="/products/zirapro" element={<ZiraPro />} />
+            <Route path="/products/strideli" element={<Strideli />} />
           </Routes>
         </main>
         <Footer />
